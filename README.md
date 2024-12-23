@@ -104,22 +104,14 @@ Cloud Storage Providers:
   Quantum Key Generation with QRNG
   
   Use the ANU QRNG API to generate keys.
-  Example Python Code:
-  import requests
 
-def generate_quantum_key():
-    response = requests.get('https://qrng.anu.edu.au/API/jsonI.php?length=1&type=uint8')
-    random_number = response.json()['data'][0]
-    return f"{random_number:08b}"  # Convert to binary for key generation
-
-print("Quantum Key:", generate_quantum_key())
 10. Go-to-Market Strategy
-Launch an MVP:
-Start with a basic API for quantum key generation and encryption.
-Educate Your Audience:
-  Publish content explaining the need for quantum-secure encryption.
-  Host webinars on quantum security and encryption.
-  Partnerships:
-  Collaborate with cloud providers or storage platforms to integrate your encryption services.
-  Conclusion
-By focusing solely on quantum encryption, you can position your service as a niche solution for businesses and governments preparing for the post-quantum era. Start with APIs and QRNG-based solutions, and expand into QKD and PQC as the technology evolves. With careful planning and strategic partnerships, a quantum-only encryption service can become a highly profitable and innovative offering.
+  Launch an MVP:
+  Start with a basic API for quantum key generation and encryption.
+  Educate Your Audience:
+    Publish content explaining the need for quantum-secure encryption.
+    Host webinars on quantum security and encryption.
+    Partnerships:
+    Collaborate with cloud providers or storage platforms to integrate your encryption services.
+    Conclusion
+  By focusing solely on quantum encryption, you can position your service as a niche solution for businesses and governments preparing for the post-quantum era. Start with APIs and QRNG-based solutions, and expand into QKD and PQC as the technology evolves. With careful planning and strategic partnerships, a quantum-only encryption service can become a highly profitable and innovative offering.
